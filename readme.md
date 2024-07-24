@@ -23,13 +23,13 @@ To create translations for a new language, run the following commands:
 ```bash
 django-admin makemessages -l <language_code>
 ```
-###  Translations for the language code specified will be created in the `locale` directory. You can then translate the strings in the `.po` files in the `locale/<language_code>/LC_MESSAGES` directory.
+#### Translations for the language code specified will be created in the `locale` directory. You can then translate the strings in the `.po` files in the `locale/<language_code>/LC_MESSAGES` directory.
 
 After translating the strings, compile the translations by running the following command:
 
 ```bash
 django-admin compilemessages
 ```
-### The translations will be compiled and will be available in the corresponding `.mo` files in the `locale/<language_code>/LC_MESSAGES` directory.
+#### The translations will be compiled and will be available in the corresponding `.mo` files in the `locale/<language_code>/LC_MESSAGES` directory.
 
-### To switch the language of the application, you can change the `LANGUAGE_CODE` setting in the `settings.py` file to the language code of the language you want to use. or you can change the language from the admin panel.
+#### To switch the language of the application, you can change the `LANGUAGE_CODE` setting in the `settings.py` file to the language code of the language you want to use. or you can change the language from the admin panel.
